@@ -1,0 +1,15 @@
+.hexagon-wrapper {
+  background-image: url("../../../public/assets/images/components/hexagon.svg");
+  background-repeat: no-repeat;
+  height: 134px;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .hexagon-content {
+    text-align: center;
+    .hexagon-label {
+      color: $white;
+    }
+  }
+}

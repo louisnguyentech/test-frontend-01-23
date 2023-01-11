@@ -1,0 +1,19 @@
+.diary-wrapper {
+  color: $dark-500-text;
+  border: 2px solid #707070;
+  padding: 16px;
+  .date-time {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.09px;
+    margin-bottom: 8px;
+  }
+  .name,
+  .description {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.06px;
+  }
+}

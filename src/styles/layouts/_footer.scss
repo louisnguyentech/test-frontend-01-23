@@ -1,0 +1,16 @@
+.footer-wrapper {
+  background: $dark-500-text;
+  .items {
+    display: flex;
+    padding: 56px 0px;
+    flex-wrap: wrap;
+    .item {
+      color: $white;
+      font-weight: 300;
+      font-size: 11px;
+      line-height: 16px;
+      letter-spacing: 0.033px;
+      margin-right: 45px;
+    }
+  }
+}

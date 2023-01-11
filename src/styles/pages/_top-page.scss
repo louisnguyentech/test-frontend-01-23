@@ -1,0 +1,63 @@
+.top-page-wrapper {
+  .section-1 {
+    height: 316px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    .top-page-left {
+      height: 100%;
+      width: 42%;
+      overflow: hidden;
+      background: url("../../../public/assets/images/top-page/d01.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .progress {
+        width: 181px;
+        height: 181px;
+        background: transparent;
+      }
+    }
+    .top-page-right {
+      height: 100%;
+      width: 58%;
+      background-color: $dark-600;
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  .section-2 {
+    margin-top: 25px;
+  }
+  .section-3 {
+    margin-top: 25px;
+    .custom-row {
+      margin-left: -5px;
+      margin-right: -5px;
+      .item {
+        padding: 4px;
+        height: 234px;
+        overflow: hidden;
+      }
+    }
+  }
+  .section-4 {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 64px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top-page-wrapper {
+    .section-1 {
+      .top-page-left,
+      .top-page-right {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.header-wrapper {
+  background: $dark-500-text;
+  color: $white !important;
+  .navbar {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    line-height: 36px;
+  }
+  .navbar-brand {
+    .logo {
+      width: 109px;
+    }
+  }
+  .menu-item-wrapper {
+    flex-direction: row-reverse;
+    margin-right: 50px;
+    .navbar-nav {
+      .nav-item {
+        .nav-link {
+          padding-left: 14px;
+          padding-right: 14px;
+        }
+      }
+    }
+    .menu-item {
+      cursor: pointer;
+      position: relative;
+      &-img {
+        width: 32px;
+        height: 32px;
+      }
+      &-text {
+        font-size: 16px;
+        font-weight: 300;
+        color: $white;
+        margin-left: 15px;
+      }
+      &-info {
+        position: absolute;
+        left: 24px;
+      }
+    }
+  }
+  .button-toggle {
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    right: 0;
+  }
+}

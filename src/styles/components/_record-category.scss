@@ -1,0 +1,41 @@
+.record-category-wrapper {
+  .record-category {
+    background: $dark-600;
+    width: 100%;
+    border: 24px solid $primary-300;
+    position: relative;
+    &-bg {
+      height: 240px;
+      mix-blend-mode: luminosity;
+      opacity: 0.25;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    &-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      &-name {
+        color: $primary-300;
+        font-size: 25px;
+        margin-bottom: 10px;
+        line-height: 30px;
+      }
+      &-label {
+        color: $white;
+        background-color: $primary-400;
+        font-size: 14px;
+        padding: 0px 17px;
+      }
+    }
+  }
+}

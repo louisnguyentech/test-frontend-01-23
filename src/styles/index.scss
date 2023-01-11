@@ -1,0 +1,11 @@
+.scrool-button {
+  position: fixed;
+  right: 15px;
+  top: 90%;
+  cursor: pointer
+}
+
+@import "./variables";
+@import "./layouts/index.scss";
+@import "./components/index.scss";
+@import "./pages/index.scss";
